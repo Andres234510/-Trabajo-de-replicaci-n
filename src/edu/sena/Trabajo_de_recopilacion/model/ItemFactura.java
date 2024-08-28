@@ -11,6 +11,7 @@ public class ItemFactura {
 
     }
 
+    // GETTERS Y SETTERS
     public Producto getProducto() {
         return producto;
     }
@@ -26,4 +27,24 @@ public class ItemFactura {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
+
+    // metodo para calcular el importe de un producto.
+    public double calcularImporte() {
+        // operacion es catidad * precio que tiene el objeto producto
+
+        double precio = Producto.precio;
+        double operacion;
+        operacion = cantidad * precio;
+
+        return operacion;
+    }
+
+    // metodo para mostrar informacion del item registrado.
+    @Override
+    public String toString() {
+        return producto +
+                "\t" + cantidad +
+                "\t" + calcularImporte();
+    }
+
 }

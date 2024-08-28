@@ -1,9 +1,9 @@
 package edu.sena.Trabajo_de_recopilacion.model;
 
 public class Producto {
+    public static double precio;
     private int codigo;
     private String nombre;
-    private double precio;
     private static int ultimoCodigo;
 
     //COSTRUCTOR
@@ -11,7 +11,7 @@ public class Producto {
         ultimoCodigo++;
         this.codigo = ultimoCodigo;
         this.nombre = nombre;
-        this.precio = precio;
+        Producto.precio = precio;
     }
 
     //GETTER Y SETTER
@@ -37,7 +37,7 @@ public class Producto {
     }
 
     public void setPrecio(double precio) {
-        this.precio = precio;
+        Producto.precio = precio;
     }
 
     public static int getUltimoCodigo() {
