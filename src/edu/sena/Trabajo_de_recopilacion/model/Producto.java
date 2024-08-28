@@ -14,6 +14,10 @@ public class Producto {
         Producto.precio = precio;
     }
 
+    public Producto(){
+
+    }
+
     //GETTER Y SETTER
 
     public int getCodigo() {

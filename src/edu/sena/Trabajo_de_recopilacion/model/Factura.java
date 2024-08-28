@@ -1,17 +1,17 @@
 package edu.sena.Trabajo_de_recopilacion.model;
+
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class Factura {
     private final int folio;
     private final String descripcion;
-    private final Date fecha;
+    private final String fecha;
     private final Cliente cliente;
     private final ItemFactura[] items;
     private int indiceItems; // Este índice te permitirá saber cuántos ítems han sido añadidos.
     private static final int MAX_ITEMS = 10; // Define el número máximo de ítems permitidos en la factura.
 
-    public Factura(int folio, String descripcion, Date fecha, Cliente cliente) {
+    public Factura(int folio, String descripcion, String fecha, Cliente cliente) {
         this.folio = folio;
         this.descripcion = descripcion;
         this.fecha = fecha;
@@ -19,6 +19,8 @@ public class Factura {
         this.items = new ItemFactura[MAX_ITEMS];
         this.indiceItems = 0;
     }
+
+
 
     // Añade los ítems de la factura
     public void addItemFactura(ItemFactura item) {
