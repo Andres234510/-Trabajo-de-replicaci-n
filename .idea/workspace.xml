@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f7cf7ac-3bd6-45ea-bf04-1e485733f6bd" name="Changes" comment="set y get de cliente">
-      <change beforePath="$PROJECT_DIR$/src/edu/sena/Trabajo_de_recopilacion/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sena/Trabajo_de_recopilacion/model/Producto.java" afterDir="false" />
+    <list default="true" id="2f7cf7ac-3bd6-45ea-bf04-1e485733f6bd" name="Changes" comment="Elaboracion del main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/sena/Trabajo_de_recopilacion/model/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sena/Trabajo_de_recopilacion/model/Factura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,21 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Andres234510"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Andres234510&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Andres234510/-Trabajo-de-replicaci-n.git",
-    "accountId": "285d0b29-ad5f-4b78-aa59-8b0bc13b17d4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Andres234510/-Trabajo-de-replicaci-n.git&quot;,
+    &quot;accountId&quot;: &quot;285d0b29-ad5f-4b78-aa59-8b0bc13b17d4&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2lCA8GSa9kJG6XfEMDw2YnTgUsJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -85,13 +91,76 @@
       <option name="project" value="LOCAL" />
       <updated>1724675848638</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="set y get de Producto.java">
+      <option name="closed" value="true" />
+      <created>1724786305013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724786305013</updated>
+    </task>
+    <task id="LOCAL-00005" summary="set y get de ItemFactura.java">
+      <option name="closed" value="true" />
+      <created>1724786774466</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724786774466</updated>
+    </task>
+    <task id="LOCAL-00006" summary="set y get de Factura.java">
+      <option name="closed" value="true" />
+      <created>1724787236425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724787236425</updated>
+    </task>
+    <task id="LOCAL-00007" summary="contructor de Producto.java">
+      <option name="closed" value="true" />
+      <created>1724789057167</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724789057167</updated>
+    </task>
+    <task id="LOCAL-00008" summary="contructor de ItemFactura.java">
+      <option name="closed" value="true" />
+      <created>1724789793180</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724789793180</updated>
+    </task>
+    <task id="LOCAL-00009" summary="metodos">
+      <option name="closed" value="true" />
+      <created>1724877540161</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724877540161</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Elaboracion del main">
+      <option name="closed" value="true" />
+      <created>1724878915698</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724878915698</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Segundo commit" />
     <MESSAGE value="set y get de cliente" />
-    <option name="LAST_COMMIT_MESSAGE" value="set y get de cliente" />
+    <MESSAGE value="set y get de Producto.java" />
+    <MESSAGE value="set y get de ItemFactura.java" />
+    <MESSAGE value="set y get de Factura.java" />
+    <MESSAGE value="contructor de Producto.java" />
+    <MESSAGE value="contructor de ItemFactura.java" />
+    <MESSAGE value="metodos" />
+    <MESSAGE value="Elaboracion del main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elaboracion del main" />
   </component>
 </project>
