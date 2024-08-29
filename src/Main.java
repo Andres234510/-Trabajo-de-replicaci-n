@@ -19,17 +19,13 @@ public class Main {
         System.out.print("Ingrese el folio: ");
         int folio = s.nextInt();
 
-        //System.out.print("Ingrese la fecha: ");
-        //Date fecha;
-        //fecha = s.nextLine();
-
-        Factura factura = new Factura(folio, descripcion, null, cliente);
+        Factura factura = new Factura(folio, descripcion, cliente);
 
         Producto producto;
 
         System.out.println();
 
-        for(int i = 0; i<2; i++){
+        for(int i = 0; i<5; i++){
             producto = new Producto();
             System.out.print("Ingrese producto nº " + producto.getCodigo() + ": ");
             producto.setNombre(s.nextLine());
