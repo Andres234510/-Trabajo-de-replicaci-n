@@ -21,8 +21,6 @@ public class Factura {
         this.indiceItems = 0;
     }
 
-
-
     // Añade los ítems de la factura
     public void addItemFactura(ItemFactura item) {
         if (indiceItems < MAX_ITEMS) {
